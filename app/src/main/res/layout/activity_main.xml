@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backgroundGeral"
+    android:orientation="vertical">
+
+    <!--Kg e Valor-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_quilos_lagosta"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal"
+            android:textSize="32sp"
+            android:hint="@string/kg"
+            android:gravity="center"
+            android:textColorHint="@color/textos"
+            android:background="@color/backgroundEditTexts"
+            android:layout_margin="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_valor"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal"
+            android:textSize="32sp"
+            android:hint="@string/valor"
+            android:gravity="center"
+            android:textColorHint="@color/textos"
+            android:background="@color/backgroundEditTexts"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/botoes"
+        android:textColor="@color/textos"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="@string/calcular"
+        android:textSize="40sp"/>
+
+    <!--Mestre-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:hint="@string/mestre"
+            android:textColor="@color/textos"
+            android:textColorHint="@color/textos" />
+
+        <TextView
+            android:id="@+id/text_mestre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/botoes"
+            android:textColor="@color/textos"
+            android:gravity="right"
+            android:textSize="32sp"
+            android:hint="R$ 0,00" />
+
+    </LinearLayout>
+
+    <!--Mergulhador-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:hint="@string/mergulhador"
+            android:textColor="@color/textos"
+            android:textColorHint="@color/textos"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/text_mergulhador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/botoes"
+            android:textColor="@color/textos"
+            android:gravity="right"
+            android:textSize="32sp"
+            android:hint="R$ 0,00"/>
+    </LinearLayout>
+
+    <!--Manguereiro-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:hint="@string/manguereiro"
+            android:textColor="@color/textos"
+            android:textColorHint="@color/textos"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/text_manguereiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/botoes"
+            android:textColor="@color/textos"
+            android:gravity="right"
+            android:textSize="32sp"
+            android:hint="R$ 0,00"/>
+    </LinearLayout>
+
+    <!--Barco-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:hint="@string/barco"
+            android:textColor="@color/textos"
+            android:textColorHint="@color/textos"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/text_barco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/botoes"
+            android:textColor="@color/textos"
+            android:gravity="right"
+            android:textSize="32sp"
+            android:hint="R$ 0,00"/>
+    </LinearLayout>
+
+    <!--Total-->
+    <TextView
+        android:id="@+id/text_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/total"
+        android:layout_gravity="center"
+        android:textColor="@color/textos"/>
+
+</LinearLayout>

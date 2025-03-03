@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LagostCalc</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="kg">Kg</string>
+    <string name="mestre">MESTRE</string>
+    <string name="mergulhador">MERGULHADOR</string>
+    <string name="manguereiro">MANGUEREIRO</string>
+    <string name="barco">BARCO</string>
+    <string name="valor">Valor</string>
+    <string name="total">TOTAL</string>
+</resources>

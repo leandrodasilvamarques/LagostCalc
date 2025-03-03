@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="textos">#FFFFFFFF</color>
+    <color name="backgroundGeral">#00061c</color>
+    <color name="backgroundEditTexts">#162035</color>
+    <color name="botoes">#2d394f</color>
+</resources>
