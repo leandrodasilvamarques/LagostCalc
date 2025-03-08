@@ -43,9 +43,13 @@ Descrição
 Após a inserção dos dados e o clique no botão "CALCULAR", o aplicativo realiza os cálculos e exibe os resultados detalhados. O valor total é distribuído entre os pescadores e o barco da seguinte forma:
 
 Mestre (10% do total): R$ 10.00
+
 Mergulhador (10% do total): R$ 10.00
+
 Mangueirero (5% do total): R$ 5.00
+
 Barco (restante, após deduções): R$ 60.00
+
 A tela mostra essas divisões de forma clara para cada cargo e exibe o total final logo abaixo, para garantir que todos os envolvidos saibam quanto cada um vai receber.
 
 Total Geral: R$ 100.00
