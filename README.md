@@ -16,7 +16,7 @@ O ícone do aplicativo **LagostCalc** é composto por dois peixes nadando em um 
 
 ## Tela de Inserção de Dados - Quilogramas e Preço por Quilo
 
-<img src="https://github.com/user-attachments/assets/a0b31e44-4f74-4965-bef5-229f58242940" width="400" />
+<img src="https://github.com/user-attachments/assets/a0b31e44-4f74-4965-bef5-229f58242940" width="300" />
 
 ### **Descrição**
 
@@ -35,7 +35,7 @@ Após a inserção desses dados, o usuário pode prosseguir clicando no botão *
 
 ## Tratamento de Erros - Validação de Campos
 
-<img src="https://github.com/user-attachments/assets/e1e77a48-df11-4470-9c02-196fc2efb15e" width="400" />
+<img src="https://github.com/user-attachments/assets/e1e77a48-df11-4470-9c02-196fc2efb15e" width="300" />
 
 ### **Descrição**
 
@@ -49,7 +49,7 @@ Este alerta garante que o usuário não avance sem fornecer as informações nec
 
 ## Tela com Cálculo Realizado - Distribuição dos Valores
 
-<img src="https://github.com/user-attachments/assets/4bc8c06b-5241-4196-8aac-22024ec5b657" width="400" />
+<img src="https://github.com/user-attachments/assets/4bc8c06b-5241-4196-8aac-22024ec5b657" width="300" />
 
 ### **Descrição**
 
