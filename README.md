@@ -16,7 +16,7 @@ O ícone do aplicativo **LagostCalc** é composto por dois peixes nadando em um 
 
 ## Tela de Inserção de Dados - Quilogramas e Preço por Quilo
 
-![Tela de Inserção de Dados](https://github.com/user-attachments/assets/a0b31e44-4f74-4965-bef5-229f58242940)
+<img src="https://github.com/user-attachments/assets/a0b31e44-4f74-4965-bef5-229f58242940" width="600" />
 
 ### **Descrição**
 
@@ -35,7 +35,7 @@ Após a inserção desses dados, o usuário pode prosseguir clicando no botão *
 
 ## Tratamento de Erros - Validação de Campos
 
-![Tela de Erro](https://github.com/user-attachments/assets/e1e77a48-df11-4470-9c02-196fc2efb15e)
+<img src="https://github.com/user-attachments/assets/e1e77a48-df11-4470-9c02-196fc2efb15e" width="600" />
 
 ### **Descrição**
 
@@ -49,7 +49,7 @@ Este alerta garante que o usuário não avance sem fornecer as informações nec
 
 ## Tela com Cálculo Realizado - Distribuição dos Valores
 
-![Tela com Cálculo Realizado](https://github.com/user-attachments/assets/4bc8c06b-5241-4196-8aac-22024ec5b657)
+<img src="https://github.com/user-attachments/assets/4bc8c06b-5241-4196-8aac-22024ec5b657" width="600" />
 
 ### **Descrição**
 
@@ -94,7 +94,3 @@ Essa divisão leva em conta as porcentagens específicas de cada função:
 1. **Insira os Dados**: Na tela principal, insira o peso da pesca (em Kg) e o valor por quilograma.
 2. **Clique em "CALCULAR"**: Após inserir os dados, clique no botão **"CALCULAR"** para que a divisão seja realizada automaticamente.
 3. **Veja o Resultado**: A divisão será mostrada com o valor de cada pescador e do barco, além do total geral.
-
----
-
-Esse formato de **README.md** está bem estruturado, com **negrito** para destacar informações importantes, **listas** para separar os itens e **descrições detalhadas** para facilitar a compreensão de como o aplicativo funciona. Isso deve tornar o seu documento bem claro e profissional no GitHub. Se precisar de mais alguma modificação, estou à disposição!
