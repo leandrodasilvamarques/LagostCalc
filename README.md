@@ -1,6 +1,3 @@
-Claro! Agora vou formatar tudo de acordo com o estilo de Markdown, aplicando as melhorias para tornar o README mais organizado e legível no GitHub. Vou adicionar os negritos, separar as seções corretamente e estruturar tudo de forma clara. Aqui está o resultado:
-
-```markdown
 # LagostCalc - Calculadora de Divisão de Ganhos para Pescadores
 
 **LagostCalc** é uma aplicação simples e intuitiva que foi desenvolvida com o objetivo de ajudar pescadores a calcular a divisão justa dos ganhos entre os membros da tripulação. A aplicação leva em consideração diferentes cargos a bordo, e a divisão é feita automaticamente, garantindo que todos recebam a porcentagem correta do total.
