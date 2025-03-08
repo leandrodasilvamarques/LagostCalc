@@ -1,4 +1,5 @@
 LagostCalc - Calculadora de Divisão de Ganhos para Pescadores
+
 LagostCalc é uma aplicação simples e intuitiva que foi desenvolvida com o objetivo de ajudar pescadores a calcular a divisão justa dos ganhos entre os membros da tripulação. A aplicação leva em consideração diferentes cargos a bordo, e a divisão é feita automaticamente, garantindo que todos recebam a porcentagem correta do total.
 
 Este README contém uma explicação detalhada de como o aplicativo funciona, sua interface, e as funcionalidades implementadas.
