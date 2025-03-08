@@ -73,7 +73,7 @@ Tecnologias Utilizadas
 
 Linguagem de Programação: Kotlin
 
-Framework: [Aqui você pode inserir o framework utilizado para o desenvolvimento da interface gráfica]
+Framework: View Binding
 
 Design Responsivo: A interface foi desenvolvida para ser simples, intuitiva e de fácil uso, garantindo uma experiência fluida em diferentes tamanhos de tela.
 
