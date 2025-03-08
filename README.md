@@ -4,11 +4,13 @@ LagostCalc é uma aplicação simples e intuitiva que foi desenvolvida com o obj
 Este README contém uma explicação detalhada de como o aplicativo funciona, sua interface, e as funcionalidades implementadas.
 
 Ícone do Aplicativo
+
 ![IMG-20250305-WA0005](https://github.com/user-attachments/assets/feb38a29-2e55-4b7a-9bdc-da91a1e33da6)
 
 O ícone do aplicativo LagostCalc é composto por dois peixes nadando em um círculo com o símbolo de dólar ($) no meio. Esse ícone representa tanto a pesca quanto a divisão financeira dos lucros obtidos, refletindo o propósito da aplicação de calcular a parte de cada pescador no ganho total da pesca.
 
 Tela de Inserção de Dados - Quilogramas e Preço por Quilo
+
 ![IMG-20250305-WA0008](https://github.com/user-attachments/assets/a0b31e44-4f74-4965-bef5-229f58242940)
 
 Descrição
@@ -22,6 +24,9 @@ Aqui, o usuário insere o preço pelo qual cada quilo de peixe será vendido. Es
 Após a inserção desses dados, o usuário pode prosseguir clicando no botão "CALCULAR" para que a aplicação realize os cálculos automaticamente.
 
 Tratamento de Erros - Validação de Campos
+
+![IMG-20250305-WA0006](https://github.com/user-attachments/assets/e1e77a48-df11-4470-9c02-196fc2efb15e)
+
 Descrição
 Se o usuário deixar de inserir um valor no campo "Kg", o aplicativo mostrará um alerta de erro. A tela exibe uma mensagem indicando que o campo precisa ser preenchido:
 
@@ -29,6 +34,10 @@ Mensagem de erro: “Insira os quilos”
 Este alerta garante que o usuário não avance sem fornecer as informações necessárias para o cálculo, evitando erros nos resultados. A aplicação valida automaticamente os dados antes de permitir que o cálculo seja realizado.
 
 Tela com Cálculo Realizado - Distribuição dos Valores
+
+![IMG-20250305-WA0007](https://github.com/user-attachments/assets/4bc8c06b-5241-4196-8aac-22024ec5b657)
+
+
 Descrição
 Após a inserção dos dados e o clique no botão "CALCULAR", o aplicativo realiza os cálculos e exibe os resultados detalhados. O valor total é distribuído entre os pescadores e o barco da seguinte forma:
 
