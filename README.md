@@ -41,9 +41,13 @@ Tela com Cálculo Realizado - Distribuição dos Valores
 
 Descrição
 Após a inserção dos dados e o clique no botão "CALCULAR", o aplicativo realiza os cálculos e exibe os resultados detalhados. O valor total é distribuído entre os pescadores e o barco da seguinte forma:
+
 Mestre (10% do total): R$ 10.00
+
 Mergulhador (10% do total): R$ 10.00
+
 Mangueirero (5% do total): R$ 5.00
+
 Barco (restante, após deduções): R$ 60.00
 
 A tela mostra essas divisões de forma clara para cada cargo e exibe o total final logo abaixo, para garantir que todos os envolvidos saibam quanto cada um vai receber.
@@ -54,17 +58,29 @@ Essa divisão leva em conta as porcentagens específicas de cada função:
 O Mestre e o Mergulhador recebem 10% cada do total.
 O Mangueirero recebe 5%.
 O Barco recebe o restante após as deduções.
+
 Funcionalidades
+
 Inserção de Dados: O usuário insere o peso da pesca e o valor por quilograma.
+
 Validação de Campos: A aplicação verifica se os campos obrigatórios estão preenchidos corretamente e avisa o usuário caso contrário.
+
 Cálculo Automático: A aplicação realiza automaticamente o cálculo com base nos dados inseridos e apresenta os resultados detalhados para cada cargo.
+
 Exibição de Resultados: O valor total é dividido entre os pescadores de acordo com as porcentagens predefinidas, e o valor final do barco é mostrado.
+
 Tecnologias Utilizadas
-Linguagem de Programação: [Aqui você pode colocar a linguagem utilizada, por exemplo, Java/Kotlin ou Python]
+
+Linguagem de Programação: Kotlin
+
 Framework: [Aqui você pode inserir o framework utilizado para o desenvolvimento da interface gráfica]
+
 Design Responsivo: A interface foi desenvolvida para ser simples, intuitiva e de fácil uso, garantindo uma experiência fluida em diferentes tamanhos de tela.
+
 Como Usar
-Baixe o Aplicativo: Faça o download do aplicativo em sua loja de aplicativos ou no repositório do GitHub.
+
 Insira os Dados: Na tela principal, insira o peso da pesca (em Kg) e o valor por quilograma.
+
 Clique em "CALCULAR": Após inserir os dados, clique no botão "CALCULAR" para que a divisão seja realizada automaticamente.
+
 Veja o Resultado: A divisão será mostrada com o valor de cada pescador e do barco, além do total geral.
