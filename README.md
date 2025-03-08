@@ -5,18 +5,18 @@ Funcionalidade: Tela Inicial
 Ícone do Aplicativo:
 
 Imagem:![IMG-20250305-WA0005](https://github.com/user-attachments/assets/99c7a2a1-f003-4bce-85e5-82ec821323a7)
-
-
 O ícone é composto por dois peixes nadando em um círculo com o símbolo de dólar ($) no meio, representando claramente o contexto de pesca e o aspecto financeiro da aplicação.
 Entrada de Dados:
 
-Imagem:
+Imagem:![IMG-20250305-WA0006](https://github.com/user-attachments/assets/a5aeea8f-2098-4f17-b860-d492ad1d661c)
+
 O usuário deve inserir o peso em quilogramas (Kg) no campo indicado na parte superior da tela. O campo recebe a entrada do peso do peixe que será calculado.
 O aplicativo fornece um alerta, como mostrado na captura de tela, para garantir que o usuário insira os valores corretamente. Por exemplo, o erro "Insira os quilos" aparece quando o campo de peso é deixado em branco.
 Tela de Cálculo
 Valores para Cálculo:
 
-Imagem:
+Imagem:![IMG-20250305-WA0007](https://github.com/user-attachments/assets/cd2de8d8-c510-4d5c-a338-72046f20973b)
+
 O aplicativo exibe as entradas do usuário e calcula automaticamente o valor total de cada pescador, baseado em uma divisão percentual previamente configurada para cada cargo:
 Mestre: 10% do total
 Mergulhador: 10% do total
@@ -25,11 +25,14 @@ Barco: recebe o restante, após a dedução dos valores para os pescadores.
 Após inserir o valor total do peso e preço por quilo, o usuário deve clicar em "CALCULAR". Isso aciona o cálculo, e os valores são automaticamente calculados para cada pescador, conforme as porcentagens.
 Resultado do Cálculo:
 
-Imagem:
+Imagem:![IMG-20250305-WA0008](https://github.com/user-attachments/assets/f02186ca-5288-42db-9449-4fe9f02b73cb)
+
 Após pressionar o botão de calcular, o total para cada pescador e o valor total geral são exibidos. No exemplo da imagem, o total foi de R$ 100,00, divididos entre os pescadores e o barco.
 Tela de Valor Inicial:
 
 Imagem:
+
+
 Quando os campos ainda não são preenchidos com os valores do peso e do preço, o aplicativo exibe as caixas de texto com os valores em R$ 0,00.
 Isso garante que o usuário saiba que ainda precisa inserir os dados para realizar o cálculo.
 Como Funciona o Cálculo
