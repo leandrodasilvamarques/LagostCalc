@@ -1,58 +1,60 @@
-Projeto: LagostCalc - Calculadora de Divisão de Ganhos
-O LagostCalc é uma aplicação desenvolvida para simplificar o processo de divisão de ganhos entre pescadores, levando em consideração diferentes cargos e a quantidade de quilos de peixe pescados. A ferramenta foi projetada para reduzir o trabalho manual e as chances de erro ao calcular a participação de cada pescador no total, baseado em um percentual predeterminado.
+LagostCalc - Calculadora de Divisão de Ganhos para Pescadores
+LagostCalc é uma aplicação simples e intuitiva que foi desenvolvida com o objetivo de ajudar pescadores a calcular a divisão justa dos ganhos entre os membros da tripulação. A aplicação leva em consideração diferentes cargos a bordo, e a divisão é feita automaticamente, garantindo que todos recebam a porcentagem correta do total.
 
-Funcionalidade: Tela Inicial
-Ícone do Aplicativo:
+Este README contém uma explicação detalhada de como o aplicativo funciona, sua interface, e as funcionalidades implementadas.
 
-Imagem:![IMG-20250305-WA0005](https://github.com/user-attachments/assets/99c7a2a1-f003-4bce-85e5-82ec821323a7)
-O ícone é composto por dois peixes nadando em um círculo com o símbolo de dólar ($) no meio, representando claramente o contexto de pesca e o aspecto financeiro da aplicação.
-Entrada de Dados:
+Ícone do Aplicativo
+![IMG-20250305-WA0005](https://github.com/user-attachments/assets/feb38a29-2e55-4b7a-9bdc-da91a1e33da6)
 
-Imagem:![IMG-20250305-WA0006](https://github.com/user-attachments/assets/a5aeea8f-2098-4f17-b860-d492ad1d661c)
+O ícone do aplicativo LagostCalc é composto por dois peixes nadando em um círculo com o símbolo de dólar ($) no meio. Esse ícone representa tanto a pesca quanto a divisão financeira dos lucros obtidos, refletindo o propósito da aplicação de calcular a parte de cada pescador no ganho total da pesca.
 
-O usuário deve inserir o peso em quilogramas (Kg) no campo indicado na parte superior da tela. O campo recebe a entrada do peso do peixe que será calculado.
-O aplicativo fornece um alerta, como mostrado na captura de tela, para garantir que o usuário insira os valores corretamente. Por exemplo, o erro "Insira os quilos" aparece quando o campo de peso é deixado em branco.
-Tela de Cálculo
-Valores para Cálculo:
+Tela de Inserção de Dados - Quilogramas e Preço por Quilo
+![IMG-20250305-WA0008](https://github.com/user-attachments/assets/a0b31e44-4f74-4965-bef5-229f58242940)
 
-Imagem:![IMG-20250305-WA0007](https://github.com/user-attachments/assets/cd2de8d8-c510-4d5c-a338-72046f20973b)
+Descrição
+Ao abrir o aplicativo, o usuário será recebido com a tela principal onde dois campos estão destacados:
 
-O aplicativo exibe as entradas do usuário e calcula automaticamente o valor total de cada pescador, baseado em uma divisão percentual previamente configurada para cada cargo:
-Mestre: 10% do total
-Mergulhador: 10% do total
-Mangueirero: 5% do total
-Barco: recebe o restante, após a dedução dos valores para os pescadores.
-Após inserir o valor total do peso e preço por quilo, o usuário deve clicar em "CALCULAR". Isso aciona o cálculo, e os valores são automaticamente calculados para cada pescador, conforme as porcentagens.
-Resultado do Cálculo:
+Campo "Kg" (Peso em Quilogramas):
+O usuário deve inserir o peso da pesca em quilogramas. Este valor é fundamental para o cálculo total do valor da pesca.
+O campo está posicionado na parte superior esquerda da tela, conforme mostrado na imagem.
+Campo "Valor" (Preço por Quilo):
+Aqui, o usuário insere o preço pelo qual cada quilo de peixe será vendido. Esse valor será multiplicado pelo peso inserido no campo anterior para gerar o valor total da pesca.
+Após a inserção desses dados, o usuário pode prosseguir clicando no botão "CALCULAR" para que a aplicação realize os cálculos automaticamente.
 
-Imagem:![IMG-20250305-WA0008](https://github.com/user-attachments/assets/f02186ca-5288-42db-9449-4fe9f02b73cb)
+Tratamento de Erros - Validação de Campos
+Descrição
+Se o usuário deixar de inserir um valor no campo "Kg", o aplicativo mostrará um alerta de erro. A tela exibe uma mensagem indicando que o campo precisa ser preenchido:
 
-Após pressionar o botão de calcular, o total para cada pescador e o valor total geral são exibidos. No exemplo da imagem, o total foi de R$ 100,00, divididos entre os pescadores e o barco.
-Tela de Valor Inicial:
+Mensagem de erro: “Insira os quilos”
+Este alerta garante que o usuário não avance sem fornecer as informações necessárias para o cálculo, evitando erros nos resultados. A aplicação valida automaticamente os dados antes de permitir que o cálculo seja realizado.
 
-Imagem:
+Tela com Cálculo Realizado - Distribuição dos Valores
+Descrição
+Após a inserção dos dados e o clique no botão "CALCULAR", o aplicativo realiza os cálculos e exibe os resultados detalhados. O valor total é distribuído entre os pescadores e o barco da seguinte forma:
 
+Mestre (10% do total): R$ 10.00
+Mergulhador (10% do total): R$ 10.00
+Mangueirero (5% do total): R$ 5.00
+Barco (restante, após deduções): R$ 60.00
+A tela mostra essas divisões de forma clara para cada cargo e exibe o total final logo abaixo, para garantir que todos os envolvidos saibam quanto cada um vai receber.
 
-Quando os campos ainda não são preenchidos com os valores do peso e do preço, o aplicativo exibe as caixas de texto com os valores em R$ 0,00.
-Isso garante que o usuário saiba que ainda precisa inserir os dados para realizar o cálculo.
-Como Funciona o Cálculo
-Mestre e Mergulhador (10% cada):
+Total Geral: R$ 100.00
+Essa divisão leva em conta as porcentagens específicas de cada função:
 
-Cada um recebe 10% do valor total, que é o produto do peso e do preço por quilo. Esses valores são calculados assim que o usuário insere os dados de entrada e clica em "CALCULAR".
-Mangueirero (5%):
-
-O mangueirero recebe 5% do valor total da pesca, o que também é calculado automaticamente após a inserção dos dados e o clique no botão de calcular.
-Barco (restante):
-
-O barco fica com o valor restante, após os percentuais dos pescadores terem sido deduzidos. O restante é automaticamente calculado e exibido na tela.
-Considerações Finais
-O LagostCalc é uma solução eficiente e intuitiva para aqueles que trabalham com pesca e necessitam de uma forma prática de dividir os lucros. A interface simples, com alertas e campos de entrada, facilita o uso até mesmo por pessoas que não têm familiaridade com cálculos complexos.
-
-Este projeto reflete o compromisso com a inovação e a melhoria de processos no cotidiano. Ele facilita a vida dos pescadores, evitando erros comuns na divisão de valores, promovendo uma distribuição justa e transparente dos ganhos.
-
-Tecnologias Utilizadas:
-
-Linguagens: [Python, Java, ou Kotlin (dependendo da tecnologia usada no app)]
-Frameworks: [Nome do framework utilizado]
-Interface: [Design responsivo, framework de UI]
-
+O Mestre e o Mergulhador recebem 10% cada do total.
+O Mangueirero recebe 5%.
+O Barco recebe o restante após as deduções.
+Funcionalidades
+Inserção de Dados: O usuário insere o peso da pesca e o valor por quilograma.
+Validação de Campos: A aplicação verifica se os campos obrigatórios estão preenchidos corretamente e avisa o usuário caso contrário.
+Cálculo Automático: A aplicação realiza automaticamente o cálculo com base nos dados inseridos e apresenta os resultados detalhados para cada cargo.
+Exibição de Resultados: O valor total é dividido entre os pescadores de acordo com as porcentagens predefinidas, e o valor final do barco é mostrado.
+Tecnologias Utilizadas
+Linguagem de Programação: [Aqui você pode colocar a linguagem utilizada, por exemplo, Java/Kotlin ou Python]
+Framework: [Aqui você pode inserir o framework utilizado para o desenvolvimento da interface gráfica]
+Design Responsivo: A interface foi desenvolvida para ser simples, intuitiva e de fácil uso, garantindo uma experiência fluida em diferentes tamanhos de tela.
+Como Usar
+Baixe o Aplicativo: Faça o download do aplicativo em sua loja de aplicativos ou no repositório do GitHub.
+Insira os Dados: Na tela principal, insira o peso da pesca (em Kg) e o valor por quilograma.
+Clique em "CALCULAR": Após inserir os dados, clique no botão "CALCULAR" para que a divisão seja realizada automaticamente.
+Veja o Resultado: A divisão será mostrada com o valor de cada pescador e do barco, além do total geral.
